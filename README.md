@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-163 projects.
+167 projects.
 
 ### SDKs
 
@@ -15,6 +15,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
 - [jev-go](https://github.com/Stumble/jev-go) — An independent Go SDK for TypeSafe AI's Jev / System One API\.
 - [jev-harness](https://github.com/AntonioCoppe/jev-harness) — A small TypeScript library that turns TypeSafe Jev answers into actions you can ship\.
+- [jev-php](https://github.com/f-lombardo/jev-php) — A lightweight PHP library for Jev APIs\.
 - [jev-tree](https://github.com/reachjalil/jev-tree) — Recursive Jev choice over a taxonomy\. Select from more than 255 options without breaking TypeSafe Jev's choice cap\.
 - [jevclient](https://github.com/AboveColin/jevclient) — Async Python client for TypeSafe Jev\. Typed questions in, probabilities and choices out, no prose to parse\.
 - [req\_llm](https://github.com/agentjido/req_llm) — A Req- and Finch-backed Elixir package that standardizes LLM API calls across providers, including a TypeSafe Jev provider with typed evaluation support\.
@@ -79,11 +80,13 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [agentic-harness-cli](https://github.com/powerpuff-kitty/agentic-harness-cli) — The decisions command family implements the offline deterministic boundary for the provider-neutral Decision Kernel contract pinned from the canonical repository\.
 - [bicameral](https://github.com/AbdelStark/bicameral) — Hybrid coding harness: System 2 writes, System 1 \(Jev\) runs reflexes\.
 - [blink](https://github.com/ellipsis-dev/blink) — Search a codebase with Jev using an ensemble of walkers that walk the file system to find a file\.
+- [Codex Jev Router](https://github.com/suenot/codex-jev-router) — Uses TypeSafe Jev Choice and Noul decisions to select Codex subagent models and reasoning effort with a Sol fallback\.
 - [commit-miner](https://github.com/devanshbatham/commit-miner) — Classify Git commit diffs and messages with Jev\. Bug fixes, security fixes/CWEs, and change types\.
 - [diffjury](https://github.com/raihankhan-rk/diffjury) — One click fetches the PR dossier \(title, body, diff, contributors\) and runs a TypeSafe Jev systemOne judgment — risk bars, noul probabilities, and a verdict\.
 - [every](https://github.com/sufianetaouil/every) — Ask a yes/no question of every function in a codebase\. Ranked answers in seconds, for cents\. Grep whose pattern is a question, powered by TypeSafe Jev\.
 - [foreman](https://github.com/thruwire/foreman) — A Codex worker does the software engineering while Foreman independently assesses whether the implementation is complete, requirements are satisfied, tests are sufficient, verification is needed, or human input is required\.
 - [Jev Codex Router](https://github.com/0xNatoshi/jev-codex-router) — Codex proxy that uses TypeSafe Jev judgments to route coding turns to different models\.
+- [Jev Frontend QA](https://github.com/Nainish-Rai/jev-frontend-qa) — Frontend QA CLI that uses TypeSafe Jev Choice decisions to select browser operations and observed targets\.
 - [Jev Review](https://github.com/devagrawal09/jev-review) — Code-review workflow that uses TypeSafe Jev structured judgments to assess changes and codebases, with a local results dashboard\.
 - [Jev Review Action](https://github.com/fatwang2/jev-review-action) — Configurable GitHub Action using Jev to review directory submissions and classify pull requests, with evidence links and template-generated comments\.
 - [jev-axi](https://github.com/shiftynick/jev-axi) — Command-line interface that sends typed questions to TypeSafe Jev so coding agents can gate shell commands before they run, classifying routine commands locally before any request is made\.
@@ -173,6 +176,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [assay-001](https://github.com/jourdanlabs/assay-001) — ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims\. Split verdict, published in full\.
 - [decider](https://github.com/Mapika/decider) — It is an open reproduction of the "System One" model class \(TypeSafe AI's Jev\), built on Qwen/Qwen3\.5-2B-Base\.
 - [DeepSearcher search-stopping evaluation](https://github.com/zilliztech/deep-searcher) — Standalone experiment comparing Jev and a generative model as search-stopping policies, with a replay workflow and recorded evaluation results\.
+- [Jev Does Not Play Dice](https://github.com/KantaHayashiAI/jev-does-not-play-dice) — Reproducible evaluation that calls hosted Jev through Vercel AI Gateway on fair random draws and synthetic forecast documents, with recorded outputs and offline recomputation\.
 - [jev-agent-failure-benchmark](https://github.com/TokenTrim/jev-agent-failure-benchmark) — This benchmarks Jev \(Typesafe\.ai\) on the text subset of Who&amp;When Pro, an agent-failure-attribution benchmark: given a failed multi-agent run, predict the responsible agent, the decisive step, and the error type\.
 - [jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab) — Reproducible calibration, confidence-gating, latency, and modeled-cost benchmarks for Jev / TypeSafe System One decisions used in DSPy workflows\.
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) — The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs\. when Jev \(TypeSafe's classifier\) picks it?
