@@ -6,11 +6,12 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-167 projects.
+173 projects.
 
 ### SDKs
 
 - [advocaat](https://github.com/pithings/advocaat) — A small, type-safe client for asking AI questions about your data, powered by TypeSafe Jev\.
+- [hunch](https://github.com/steven-shoemaker/hunch) — Python library that turns TypeSafe Jev Choice, Score, and Noul questions into functions over lists and DataFrames, such as classify, score, check, extract, pick, and verify\.
 - [jev](https://github.com/dannote/jev) — TypeSafe Jev for OTP: reply to Jev from a GenServer and pattern match on its answer
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) — Go client for TypeSafe's System One API and its model Jev: typed judgments and calibrated probabilities instead of generated text
 - [jev-go](https://github.com/Stumble/jev-go) — An independent Go SDK for TypeSafe AI's Jev / System One API\.
@@ -38,6 +39,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [ask-jev-skill](https://github.com/shantanugoel/ask-jev-skill) — Hermes skill: call TypeSafe Jev \(jev-latest\) as a typed tiebreaker\.
 - [cursor-clijev-compaction](https://github.com/kleosr/cursor-clijev-compaction) — TypeSafe Jev-scored context recovery for Cursor CLI \(agent\)\. Capture tool I/O, score keep/drop, re-inject after native compact\.
+- [discern](https://github.com/doeixd/discern) — TypeScript library that turns Effect DecisionModel answers into typed control flow: classify, probability and rating patterns with an explicit Uncertain branch, routable procedures, and recording, replay, caching and call budgets as middleware\. Reaches TypeSafe Jev through the &\#64;effect/ai-typesafe decision model\.
 - [dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools) — DeepSeek Harness plugin that runs three automatic Jev judgments on the live session — pruning oversized tool output to the segments relevant to the request, screening fetched pages for instructions aimed at the model, and picking which skill fits the next step — and adds jev\_ask and a jev\_gate completion check that escalates every unclear answer\.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim\.
 - [GPTCache](https://github.com/zilliztech/GPTCache) — Semantic cache with a Jev evaluator that uses Noul judgments to check whether a cached response can serve an incoming request\.
@@ -60,6 +62,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-use](https://github.com/shitianfang/jev-use) — Claude Code, Codex, and pi plugin exposing jev\_judge and jev\_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM\.
 - [Jevbridge](https://github.com/tacticocc/Jevbridge) — ACP and MCP adapter that bridges TypeSafe Jev with any LLM — computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode\.
 - [jevlogs](https://github.com/reachjalil/jevlogs) — Open-source Jev log triage for OpenTelemetry\. Score the signal before expensive LLM analysis\.
+- [jevql](https://github.com/kylemclaren/jevql) — psql-shaped CLI and Go/TypeScript/Python SDKs that add jev\(\), jev\_prob, jev\_choice, and jev\_score to queries against a vanilla Postgres with no extension: the plain SQL runs on the server, surviving rows are judged by TypeSafe Jev in batches \(repeated judgements are cached\), and the client applies the filter, sort, or group\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) — Drop-in LlamaIndex reranker and router powered by TypeSafe Jev: typed Score / Choice answers, cheap compared to LLM-as-judge — not a Cohere or FlagEmbedding cross-encoder\.
 - [Milvus Model](https://github.com/milvus-io/milvus-model) — Python reranker adapter that sends candidate documents as Jev Noul questions in one request, then sorts the returned scores and preserves original document indices\.
@@ -118,6 +121,8 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [hev reranker](https://github.com/hev/reranker) — Python library using Jev Noul judgments to score candidate documents for query relevance, then sort or filter the results\.
 - [Jev Search](https://github.com/superagents-lab/jev-search) — Web search using Jev to choose sources, time ranges and query candidates, then rank Search1API results by relevance\.
+- [JevPDF](https://github.com/kylemclaren/jevpdf) — Browser app for searching a PDF in plain language: pdf\.js extracts each page's lines locally, each line gets one TypeSafe Jev Noul asking whether it answers the query \(batched up to 16 lines per request with the page text as context\), and lines at or above the hit threshold are highlighted and ranked by probability\.
+- [jevsearch](https://github.com/kylemclaren/jevsearch) — shadcn/ui command-palette site search where a local keyword pass streams hits first, then one TypeSafe Jev request re-ranks the top 20 with a Noul per candidate page, a Choice for the best answer, and a Noul for whether any page answers the query\.
 - [jgrep](https://github.com/keltokhy/jgrep) — Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments\.
 - [jgrep](https://github.com/kyu1204/jgrep) — Semantic grep CLI that asks Jev one Noul per code chunk, git diff hunk or CSV row \(16 per request\) and prints grep-style file:line hits, with English-sentence lint rules for CI and an interactive init\.
 - [jselect](https://github.com/keltokhy/jselect) — Selects source-linked evidence within a token budget using Jev Noul relevance judgments and local diversity-aware selection\.
@@ -180,6 +185,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-agent-failure-benchmark](https://github.com/TokenTrim/jev-agent-failure-benchmark) — This benchmarks Jev \(Typesafe\.ai\) on the text subset of Who&amp;When Pro, an agent-failure-attribution benchmark: given a failed multi-agent run, predict the responsible agent, the decisive step, and the error type\.
 - [jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab) — Reproducible calibration, confidence-gating, latency, and modeled-cost benchmarks for Jev / TypeSafe System One decisions used in DSPy workflows\.
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) — The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs\. when Jev \(TypeSafe's classifier\) picks it?
+- [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) — Reproducible measurement of how TypeSafe Jev bills and behaves: batched versus one-question-per-call input tokens, per-question and per-language token costs, context limits found by bisection, and answer shifts under batching, translation and rewording, with public request logs\.
 - [jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench) — Public, reproducible comparison of Jev \(TypeSafe AI's System One model, launched 15 September 2026\) against a classic LLM on one security decision: should an email agent click the link in this email?
 - [jev-rerank-bench](https://github.com/anessbelbati/jev-rerank-bench) — Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap\.
 - [jev-search-rerank-eval](https://github.com/zhuyansen/jev-search-rerank-eval) — Does a TypeSafe Jev rerank beat embedding search? Graded relevance eval \(9,831 pairs, 164 zh/en queries\) over the Agent Skills Hub catalog, with the judge-circularity bias measured\.
