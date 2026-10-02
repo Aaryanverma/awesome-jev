@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-173 projects.
+175 projects.
 
 ### SDKs
 
@@ -19,6 +19,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-php](https://github.com/f-lombardo/jev-php) — A lightweight PHP library for Jev APIs\.
 - [jev-tree](https://github.com/reachjalil/jev-tree) — Recursive Jev choice over a taxonomy\. Select from more than 255 options without breaking TypeSafe Jev's choice cap\.
 - [jevclient](https://github.com/AboveColin/jevclient) — Async Python client for TypeSafe Jev\. Typed questions in, probabilities and choices out, no prose to parse\.
+- [kojev](https://github.com/ItisNoMatter/kojev) — Kotlin Multiplatform \(JVM, Android, iOS\) client for TypeSafe's Jev: Choice, Score, and Noul questions are declared in Kotlin, sent in one request with retries, and answered as the caller's own enums rather than string keys\.
 - [req\_llm](https://github.com/agentjido/req_llm) — A Req- and Finch-backed Elixir package that standardizes LLM API calls across providers, including a TypeSafe Jev provider with typed evaluation support\.
 - [swift-typesafe](https://github.com/ainame/swift-typesafe) — Swift 6\.4 SDK for TypeSafe AI, following the Python SDK's 0\.6\.0 API\.
 - [TypeLLM](https://github.com/TypeLLM/TypeLLM) — TypeLLM brings the same typed-decision interface as TypeSafe Jev to the open-source autoregressive models you already run—without a proprietary model API, model retraining, structured-output library, or manual KV-tensor management\.
@@ -88,6 +89,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [diffjury](https://github.com/raihankhan-rk/diffjury) — One click fetches the PR dossier \(title, body, diff, contributors\) and runs a TypeSafe Jev systemOne judgment — risk bars, noul probabilities, and a verdict\.
 - [every](https://github.com/sufianetaouil/every) — Ask a yes/no question of every function in a codebase\. Ranked answers in seconds, for cents\. Grep whose pattern is a question, powered by TypeSafe Jev\.
 - [foreman](https://github.com/thruwire/foreman) — A Codex worker does the software engineering while Foreman independently assesses whether the implementation is complete, requirements are satisfied, tests are sufficient, verification is needed, or human input is required\.
+- [Jev by Example](https://github.com/ReallyArtificial/jev-by-example) — Runnable JavaScript lessons use Jev judgments for memory reconciliation, tool-result checks, and handoff constraints, with offline fixtures and opt-in live calls\.
 - [Jev Codex Router](https://github.com/0xNatoshi/jev-codex-router) — Codex proxy that uses TypeSafe Jev judgments to route coding turns to different models\.
 - [Jev Frontend QA](https://github.com/Nainish-Rai/jev-frontend-qa) — Frontend QA CLI that uses TypeSafe Jev Choice decisions to select browser operations and observed targets\.
 - [Jev Review](https://github.com/devagrawal09/jev-review) — Code-review workflow that uses TypeSafe Jev structured judgments to assess changes and codebases, with a local results dashboard\.
