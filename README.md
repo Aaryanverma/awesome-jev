@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-177 projects.
+180 projects.
 
 ### SDKs
 
@@ -59,6 +59,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-router](https://github.com/gargpratyush/jev-router) — Automatic per-turn model routing for Claude Code and OpenAI Codex\.
 - [jev-router](https://github.com/prismhq/jev-router) — Open-source LLM router that uses TypeSafe's Jev to pick a model, on top of LiteLLM
 - [jev-shell-history](https://github.com/mrnugget/jev-shell-history) — Fish-style zsh history autosuggestions ranked by Jev \(TypeSafe\)
+- [jev-skill-router](https://github.com/shimo4228/jev-skill-router) — Claude Code hook that asks Jev which installed skill fits each prompt and logs the answer\.
 - [jev-starter](https://github.com/hamakyo/jev-starter) — Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps\.
 - [jev-use](https://github.com/shitianfang/jev-use) — Claude Code, Codex, and pi plugin exposing jev\_judge and jev\_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM\.
 - [Jevbridge](https://github.com/tacticocc/Jevbridge) — ACP and MCP adapter that bridges TypeSafe Jev with any LLM — computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode\.
@@ -110,6 +111,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [Jevonian](https://github.com/xinyao27/jevonian) — Local OpenAI- and Anthropic-compatible proxy that asks one Jev call to pick both the model route and the thinking level for jevonian/auto, after deterministic code has filtered candidates by protocol, context window, effort floor, and spent quota windows, and after pinning a real model ID or requesting jevonian/&lt;route&gt; skips Jev entirely\.
 - [JevSeek](https://github.com/morcoan/JevSeek) — Desktop and CLI coding agent that uses Jev to select the next tool from user intent and recorded execution results\.
 - [Leanest](https://github.com/baronunread/leanest) — Local-first test selector that uses TypeSafe Jev semantic judgments to decide which tests are safe to skip for a given code change, dropping straight into CI via its bundled GitHub Action\.
+- [mu](https://github.com/qybaihe/mu) — Coding agent and desktop app built on Pi that asks TypeSafe Jev typed questions at decision points in its loop, including which chunks of long tool output enter the context, whether a rule-flagged command was asked for, and whether web pages, search results or MCP output carry instructions aimed at the model\.
 - [pi-jev-auto-mode](https://github.com/jomatsu/pi-jev-auto-mode) — Jev \(TypeSafe System One\) backed auto mode for the Pi coding agent: semantically auto-approves bash, write, and edit tool calls and fails closed when a decision cannot be made\.
 - [pi-warden](https://github.com/DevMortimer/pi-warden) — Guardrails for Pi built on pi-typesafe that steer the agent instead of interrupting you: Jev judges irreversible and off-task tool calls, detects stuck loops, checks unverified done claims, flags slop
 - [progressgate](https://github.com/AshutoshVJTI/progressgate) — It's a small deterministic policy sitting on top of TypeSafe Jev semantic judgments — Jev reads the trajectory, code decides what to do about it\.
@@ -123,6 +125,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [hev reranker](https://github.com/hev/reranker) — Python library using Jev Noul judgments to score candidate documents for query relevance, then sort or filter the results\.
 - [Jev Search](https://github.com/superagents-lab/jev-search) — Web search using Jev to choose sources, time ranges and query candidates, then rank Search1API results by relevance\.
+- [jev-research-pipeline](https://github.com/shimo4228/jev-research-pipeline) — Daily research monitor where Jev judges whether each new paper or repository helps answer one of the user's open questions and a separate LLM writes the note\.
 - [JevPDF](https://github.com/kylemclaren/jevpdf) — Browser app for searching a PDF in plain language: pdf\.js extracts each page's lines locally, each line gets one TypeSafe Jev Noul asking whether it answers the query \(batched up to 16 lines per request with the page text as context\), and lines at or above the hit threshold are highlighted and ranked by probability\.
 - [jevsearch](https://github.com/kylemclaren/jevsearch) — shadcn/ui command-palette site search where a local keyword pass streams hits first, then one TypeSafe Jev request re-ranks the top 20 with a Noul per candidate page, a Choice for the best answer, and a Noul for whether any page answers the query\.
 - [jgrep](https://github.com/keltokhy/jgrep) — Filters text, structured records, functions, and diff hunks against plain-English descriptions using Jev Noul judgments\.
